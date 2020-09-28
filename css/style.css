@@ -3,10 +3,6 @@ body {
   margin: 0;
 }
 
-.container {
-  cursor: pointer;
-}
-
 .content {
   height: 550px;
   width: 100%;
@@ -21,11 +17,19 @@ body {
 }
 
 .toolbar {
-  height: 40px;
   width: 70%;
   display: flex;
   border-radius: 6px;
   background-image: linear-gradient(#616161 0%, #7a7a7a 7%, #7a7a7a 47%, #616161 50%, #7a7a7a, #7a7a7a 93%, #616161);
+}
+
+.toolbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .item {
@@ -33,8 +37,18 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: white;
   border: 1px solid #5c5c5c;
+  cursor: pointer;
+}
+
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
 }
 
 .item:nth-of-type(1) {
@@ -113,10 +127,6 @@ body {
   margin: 5px 10px;
 }
 
-.search input:focus i {
-  color: red;
-}
-
 .apple_logo {
   width: 25px;
   height: 25px;
@@ -163,11 +173,6 @@ footer {
 
 .float-right li:nth-of-type(1) {
   border-left: none;
-}
-
-footer a {
-  color: #08c;
-  text-decoration: none;
 }
 
 footer a:hover {
