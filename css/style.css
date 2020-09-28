@@ -1,6 +1,61 @@
 body {
-  padding: 0 50px;
   margin: 0;
+}
+
+h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 50;
+  transform: scale(2, 1.8);
+}
+
+.content p {
+  color: white;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.short-msg {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.explore {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+}
+
+.explore a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0 15px 0 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.explore a:hover {
+  border-bottom: 1px solid white;
+}
+
+.explore i {
+  color: white;
+  font-size: 30px;
 }
 
 .content {
@@ -10,9 +65,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:
-    url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg")
-    50% 100% no-repeat;
+  background: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 50% 100% no-repeat;
   background-size: cover;
 }
 
@@ -21,6 +74,7 @@ body {
   display: flex;
   border-radius: 6px;
   background-image: linear-gradient(#616161 0%, #7a7a7a 7%, #7a7a7a 47%, #616161 50%, #7a7a7a, #7a7a7a 93%, #616161);
+  margin-bottom: 80px;
 }
 
 .toolbar ul {
@@ -39,16 +93,6 @@ body {
   width: 100%;
   border: 1px solid #5c5c5c;
   cursor: pointer;
-}
-
-footer a {
-  color: #08c;
-  text-decoration: none;
-}
-
-.item a {
-  color: white;
-  text-decoration: none;
 }
 
 .item:nth-of-type(1) {
@@ -149,19 +193,21 @@ footer {
 .footer-content-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
 .float-left {
   padding: 0;
   text-align: left;
+  margin-left: 20%;
 }
 
 .float-right {
   display: flex;
   align-items: center;
   text-align: right;
+  margin-right: 20%;
 }
 
 .float-right li {
@@ -175,13 +221,8 @@ footer {
   border-left: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 .copyright {
-  max-width: 954px;
-  margin: 0 auto;
+  margin: 0 0 0 20%;
 }
 
 .copyright p {
