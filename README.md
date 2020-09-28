@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/rukundoeric/Building-with-Backgrounds-and-Gradients/apple-page/index.html)
+[Live Demo Link](https://rawcdn.githack.com/rukundoeric/Building-with-Backgrounds-and-Gradients/d1c76de23a739000c8c62b317d934102130ca1df/index.html)
 
 ## Getting Started
 

@@ -185,29 +185,33 @@ footer a:hover {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   color: #6e6e6e;
   font-size: 11px;
 }
 
 .footer-content-container {
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  width: 75%;
 }
 
 .float-left {
   padding: 0;
   text-align: left;
-  margin-left: 20%;
 }
 
 .float-right {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   text-align: right;
-  margin-right: 20%;
 }
 
 .float-right li {
@@ -222,7 +226,7 @@ footer {
 }
 
 .copyright {
-  margin: 0 0 0 20%;
+  width: 75%;
 }
 
 .copyright p {
