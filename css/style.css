@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  /* background-color: rgb(43, 92, 255); */
+  cursor: pointer;
 }
 
 .content {
@@ -75,7 +75,23 @@ body {
 
 .content img:nth-of-type(1) {
   margin-top: 100px;
+  clip-path: inset(0px 0px 10px 0px);
 }
+
+.content img:nth-of-type(3) {
+  height: 34px;
+  width: 100%;
+  margin-top: 30px;
+  object-fit: none;
+  object-position: 50% 0%;
+}
+
+.content img:nth-of-type(3):hover {
+  width: 100%;
+  object-fit: none;
+  object-position: 50% 106%;
+}
+
 
 .search {
   margin: 5px;
