@@ -146,6 +146,41 @@ footer {
   font-size: 11px;
 }
 
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+  width: 60%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.774);
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.play-vid a {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.856);
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 25px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.play-vid a:hover {
+  text-decoration: underline;
+}
+
 .footer-content-container {
   display: flex;
   align-items: center;
@@ -173,10 +208,6 @@ footer {
 
 .float-right li:nth-of-type(1) {
   border-left: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .copyright {
